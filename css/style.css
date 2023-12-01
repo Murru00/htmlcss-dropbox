@@ -20,6 +20,7 @@ li{
 a{
     color: inherit;
     text-decoration: none;
+    margin: 10px;
 }
 
 body{
@@ -31,20 +32,40 @@ body{
     color: white;
     padding: 6px 4px;
 }
+
+
+
+
+
 /*UTILS*/
+
+.d-flex{
+    display: flex;
+}
 
 .container{
     max-width: 1080px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .debug{
     min-height: 80px;
     background-color: burlywood;
     padding: 2rem;
+    border: 2px dashed red;
 }
 
+/* .debug *{
+    min-height: 80px;
+    background-color: burlywood;
+    padding: 2rem;
+    border: 2px dashed rgb(8, 8, 8);
+} */
+/*HEADER*/
 header{
 height: 80px;
 display: flex;
@@ -53,6 +74,7 @@ justify-content: space-around;
 
 .header-logo{
  flex-grow: 1;
+ margin-left: 15px;
 }
 
 .header-container{
@@ -72,4 +94,32 @@ justify-content: space-around;
 
 .header-center{
     flex-grow: 5;
+}
+
+.botton{
+    background-color:#0061ff ;
+    color: white;
+    padding: 6px 4px;
+}
+
+/*JUMBO*/
+
+.jumbo  .container{
+    
+}
+
+.column-40{
+width: 40%;
+}
+
+.column-60{
+width: 60%;
+}
+
+.column-70{
+width: 70%;
+}
+
+.column-30{
+width: 30%;
 }
