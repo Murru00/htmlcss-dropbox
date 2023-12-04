@@ -107,6 +107,10 @@ background-color: white;
 
 /*JUMBO*/
 
+#business > .column-30{
+    line-height: 4;
+}
+
 .jumbotron{
     background-color: #b4d0e7;
     height: 600px;
@@ -284,4 +288,14 @@ margin-top: 150px;
 
 .try-drop{
     background-color:#b4d0e7;
+}
+
+
+/*QUESTION*/
+.question{
+    line-height: 5;
+}
+
+.question >.container i{
+    margin-left: 230px;
 }
