@@ -41,6 +41,7 @@ body{
 
 .d-flex{
     display: flex;
+    align-items: center;
 }
 
 .container{
@@ -104,22 +105,36 @@ justify-content: space-around;
 
 /*JUMBO*/
 
-.jumbo  .container{
-    
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 600px;
+}
+.jumbo-contain{
+    display: flex;
+    align-items: center;
 }
 
 .column-40{
-width: 40%;
+    margin-left: 100px;
+}
+.column-40 > .botton{
+    display: block;
+    margin-bottom: 50px;
 }
 
-.column-60{
-width: 60%;
+.column-40 > .arrow{
+    margin-top: 100px;
+
 }
 
-.column-70{
-width: 70%;
+.column-40 > p{
+    margin-bottom: 30px;
 }
 
-.column-30{
-width: 30%;
+.jumbotron > .container > h1{
+    font-size: 55px;
+}
+
+.column-60 > img{
+    margin-top: 100px;
 }
