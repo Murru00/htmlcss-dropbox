@@ -71,6 +71,8 @@ header{
 height: 80px;
 display: flex;
 justify-content: space-around;
+
+background-color: white;
 }
 
 .header-logo{
@@ -206,4 +208,80 @@ margin-top: 150px;
 
 .drop-business > .container > .column-30 > img{
     margin-bottom: 40px;
+}
+
+
+
+/*DROP-TEAM*/
+
+
+
+.drop-team > .container{
+    margin-top: 100px;
+    
+}
+
+.drop-team > .container h2{
+    font-size: 57px;
+    
+    
+}
+
+
+
+/*DESIGNIT*/
+
+.designit{
+margin-top: 150px;
+
+}
+.designit > .container{
+    display: flex;
+}
+.column-100{
+    width: 100%;
+}
+
+.column-15{
+    width: 15%;
+}
+
+
+.designit-down-left{
+    display: inline;
+
+}
+
+.designit-down-left > .container{
+    display: flex;
+}
+
+.designit-down-left > .container > .column-100{
+    width: 422;
+}
+
+.designit > .container:first-child (1){
+    background-color: #a2d39b;
+}
+
+
+/*TRY-DROP*/
+
+.try-drop > .container > a{
+    background-color: white;
+    color: black;
+}
+
+
+.try-drop > .container{
+    display: flex;
+    gap: 367px;
+    height: 200px;
+    align-items: center;
+    
+    margin-top: 130px;
+}
+
+.try-drop{
+    background-color:#b4d0e7;
 }
