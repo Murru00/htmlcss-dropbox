@@ -138,3 +138,33 @@ justify-content: space-around;
 .column-60 > img{
     margin-top: 100px;
 }
+
+
+/*  PIANO TARIFFARIO*/
+
+.column-30{
+    width: 30%;
+    line-height: 5;
+    
+}
+
+#business{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 10  0px;
+}
+
+.tariff{
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.tariff > h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.tariff > .btn{
+    margin-left: 25px;
+}
