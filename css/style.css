@@ -55,9 +55,9 @@ body{
 
 .debug{
     min-height: 80px;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     padding: 2rem;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 /* .debug *{
@@ -298,4 +298,24 @@ margin-top: 150px;
 
 .question >.container i{
     margin-left: 230px;
+}
+
+
+/*FOOTER*/
+
+
+.link-footer{
+    color: white;
+    background-color: black;
+    height: 500px;
+    
+}
+
+
+
+
+.link-footer > .container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 3;
 }
